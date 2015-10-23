@@ -1,0 +1,23 @@
+{
+  "name": "formula-upper",
+  "version": "1.0.0",
+  "description": "UPPER function",
+  "main": "UPPER.js",
+  "scripts": {
+    "test": "node test",
+    "build": "babel UPPER.es6 -m umd --out-file UPPER.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/upper.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/upper/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/upper#readme",
+  "dependencies": {
+    "tape": "^4.2.2"
+  }
+}
